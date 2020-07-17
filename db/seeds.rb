@@ -1,0 +1,5 @@
+User.create(username: "Miguel", password: "12345")
+User.create(username: "Mi", password: "12345")
+User.create(username: "Mark", password: "12345")
+User.create(username: "Miguellll", password: "12345")
+User.create(username: "Miguedfdl", password: "12345")
