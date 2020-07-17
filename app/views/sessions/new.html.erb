@@ -1,0 +1,10 @@
+<h1>Please enter your username and password:</h1>
+<%=form_for @user, url: sessions_path, method:"post" do |t|%>
+<%=t.label :name%>
+<%=t.text_field :name%>
+<br>
+<%=t.label :password%>
+<%=t.password_field :password%>
+<br>
+<%=t.submit%>
+<%end%>

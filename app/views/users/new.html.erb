@@ -1,0 +1,13 @@
+<h1>Please enter your desired username and password:</h1>
+<%=form_for @user, url: users_path, method:"post" do |t|%>
+<%=t.label :name%>
+<%=t.text_field :name%>
+<br>
+<%=t.label :password%>
+<%=t.password_field :password%>
+<br>
+<%=t.label :password_confirmation, "Confirm Password"%>
+<%=t.password_field :password_confirmation%>
+<br>
+<%=t.submit%>
+<%end%>
